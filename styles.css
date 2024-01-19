@@ -1,0 +1,44 @@
+:root {
+    font-family: 'Roboto', sans-serif;
+    --color-primary: #f2f2f2;
+    --color-secondary:#0f1022;
+
+}
+
+body {
+    min-height: 100vh;
+    }
+
+main {
+    height: 100%
+}
+
+.front {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    height: 50vh;
+}
+
+.back {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    height: 50vh;
+    display: none;
+}
+
+.distribution-links {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}
+
+.front, .back, .distribution-links {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.artwork {
+    height: 50vh;
+    width: auto;
+}
